@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="checkCookie()">
+  
+  <div class="container">
+    <h1>Browser Object Model</h1>
+    <div class="container-infos">
+      <p class="window"></p>
+      <p class="screen"></p>
+      <p class="location"></p>
+      <input class="locationButton" type="button" value="Load New Page" onclick="newPage()">
+      <input type="button" value="goBack" onclick="goBack()">
+      <input type="button" value="goForward" onclick="goForward()">
+      <p class="navigator"></p>
+    </div>
+    
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
